@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #5bc5f3;
+}
+
+.container {
+    text-align: center;
+}
+
+.dice {
+    font-size: 5rem;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(254, 118, 118);
+    border: 3px solid #f47171;
+    border-radius: 10px;
+    transition: transform 0.4s ease;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 30px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+
+}
+
+button:hover {
+    background-color: #59bd5e;
+}
